@@ -1,0 +1,35 @@
+.cards article,
+.card {
+    box-shadow: 0 3px 5px rgba(0,0,0,0.33);
+    border: solid 1px darkgrey;
+    background-color: rgb(235, 235, 235);
+    border-radius: 1rem 0 1rem;
+}
+
+.cards article img,
+.card img {
+    border-radius: 1rem 0 0 0;
+    border: none;
+}
+
+.cards article h2,
+.cards article h3,
+.cards article p,
+.card h2,
+.card h3,
+.card p {
+    padding: 0 1rem;
+    
+}
+
+.cards article a,
+.card a {
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    float: right;
+}
+
+.cards .button,
+.card .button {
+    border-radius: 1rem 0 1rem ;
+}
